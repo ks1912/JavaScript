@@ -1,0 +1,30 @@
+<DOCKTYPE html>
+<html>
+    <head>
+        <title>document.getElementByID|Name|Class</title>
+        <!-- Declaring Style -->
+        <style>
+            body
+            {
+                text-align: center;
+            }
+        </style>
+        <!-- Declaring JS -->
+        <script>
+            function change()
+            {
+                var kname = document.getElementById("kunalChanged");
+                var sname = document.getElementById("singhChanged");
+                kname.innerHTML = "Singh";
+                sname.innerHTML = "Kunal";
+            }
+        </script>
+    </head>
+    <body>
+        <h1> Get Element By ID Example</h1>
+        <br>
+        <p>To change the text from Kunal to Singh or Singh to Kunal click below on the text below.</p>
+        <p id="kunalChanged" onclick="change()"> Kunal </p>
+        <p id="singhChanged" onclick="change()"> Singh </p>
+    </body>
+</html>
