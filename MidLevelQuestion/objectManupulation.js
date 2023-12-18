@@ -13,3 +13,5 @@ function swapKeysAndValues(obj) {
 const originalObj = { a: 1, b: 2, c: 3 };
 const swappedObj = swapKeysAndValues(originalObj);
 console.log(swappedObj); // Output: { '1': 'a', '2': 'b', '3': 'c' }
+
+// Test
