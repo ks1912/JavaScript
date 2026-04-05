@@ -1,12 +1,25 @@
-# JavaScript
+| Concept       | Meaning                   | Use in Testing      |
+| ------------- | ------------------------- | ------------------- |
+| Class/Object  | Blueprint & instance      | Page classes        |
+| Encapsulation | Hide data                 | Hide locators       |
+| Inheritance   | Reuse code                | BasePage            |
+| Polymorphism  | Same method diff behavior | Flexible test logic |
+| Abstraction   | Hide complexity           | Clean test APIs     |
 
-## Calculator.js 
-### This file is having the script that is required to build a simple calculator. I have used two techniques:
-### 1. if-else
-### 2. switch
 
-## document.html 
-### This file is a good example of inner html dom object. We used inner HTML to change the text that is being displayed to some other text. 
+🎯 How to Answer “Explain OOP” in an Interview
+✅ Strong Interview Answer (You can say this)
 
-## try_catch_throw_finally.js
-### This file is a good example how we can do error handeling in java script.I have used try, catc, catch and finally and describe about it with some examples.
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of classes and objects. It helps in organizing code in a modular, reusable, and scalable way by modeling real-world entities.
+
+The four main principles of OOP are:
+
+1. Encapsulation – Wrapping data and methods together and restricting direct access to data to ensure data integrity.
+
+2. Inheritance – Allowing one class to inherit properties and methods from another class to promote code reuse.
+
+3. Polymorphism – The ability of a method to behave differently based on the object, typically achieved through method overriding or overloading.
+
+4. Abstraction – Hiding complex implementation details and exposing only the necessary functionality to the user.
+
+These principles help in building maintainable, scalable, and reusable software systems.
