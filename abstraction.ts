@@ -1,7 +1,11 @@
 // When we dont want to create direct object but want to create a blueprint for the object we can use abstract class.
 // Abstract class is a class that cannot be instantiated and is meant to be subclassed. It can contain abstract methods, which are methods that are declared but not implemented in the abstract class. Subclasses of the abstract class must implement the abstract methods.
 
-abstract class BankAccount {
+interface Transaction {
+  deposit(amount: number): void;
+  withdraw(amount: number): void;
+}
+abstract class BankAccount implements Transaction {
   protected owner: string;
   protected balance: number;
 
