@@ -22,7 +22,6 @@ class BankAccounts {
   }
 }
 
-
 class SavingsAccount extends BankAccounts {
   private interestRate: number;
 
